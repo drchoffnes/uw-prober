@@ -1,7 +1,7 @@
-reverse-traceroute-probes
+uw-prober
 =========================
 
-Probing code for Reverse Traceroute. The reverse traceroute data is stored at gs://m-lab_revtr/
+Network measurement helpers. Data collected from them are stored at gs://m-lab_revtr/
 
 Files will are uploaded as revtr_$CURR_DATE.txt, where $CURR_DATE is the result of `date +%F`. Each line is a comma-separated list of values for a reverse traceroute measurement. The fields are described below, and are generated from the table at the end of the email.
 
